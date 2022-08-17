@@ -1,0 +1,35 @@
+.rashod-stavka {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  
+  .prihod {
+    position: absolute;
+    right: 0;
+    width: 10px;
+    height: 50px;
+    background-color: green;
+  }
+  
+  .rashod {
+    position: absolute;
+    right: 0;
+    width: 10px;
+    height: 50px;
+    background-color: #b80202;
+  }
+  
+  .stavka-info {
+    font-size: 20px;
+  }
+  

@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  
+  .button:disabled {
+    background-color: rgb(114, 168, 155);
+    cursor: not-allowed;
+  }
+  
+  .button {
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(0, 141, 106);
+  }

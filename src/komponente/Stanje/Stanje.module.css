@@ -1,0 +1,30 @@
+.stanje-container {
+    width: 40%;
+    margin: 30px 30%;
+    background-color: white;
+    padding: 30px;
+  }
+  
+  .heading {
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  .stanje-container--cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .prihod {
+    color: green;
+  }
+  
+  .rashod {
+    color: #b80202;
+  }
+  
+  .stanje-container--cards > div > p {
+    font-size: 25px;
+    margin: 0;
+  }
